@@ -146,9 +146,9 @@ INSERT INTO movies (title, director, year, length_minutes)
 - #### Both the title and director for Toy Story 8 is incorrect! The title should be “Toy Story 3” and it was directed by Lee Unkrich
 ```sql
 UPDATE movies
-SET Title = "Toy Story 3", 
-  Director = "Lee Unkrich"
-    WHERE Title = "Toy Story 8";
+  SET Title = "Toy Story 3", 
+    Director = "Lee Unkrich"
+      WHERE Title = "Toy Story 8";
 ```
 ### Lesson 15. Task 2
 - #### Andrew Stanton has also left the studio, so please remove all movies directed by him.
@@ -169,14 +169,14 @@ CREATE TABLE Database (
 );
 ```
 ### Lesson 17. Task 2
-- ### Add another column named Language with a TEXT data type to store the language that the movie was released in. Ensure that the default for this language is 
-- ### English.
+- #### Add another column named Language with a TEXT data type to store the language that the movie was released in. Ensure that the default for this language is 
+- #### English.
 ```sql
 ALTER TABLE movies 
   ADD Language TEXT DEFAULT "English"; 
 ```
 ### Lesson 18. Task 2
-- ### And drop the BoxOffice table as well
+- #### And drop the BoxOffice table as well
 ```sql
 DROP TABLE IF EXISTS boxoffice;
 ```
