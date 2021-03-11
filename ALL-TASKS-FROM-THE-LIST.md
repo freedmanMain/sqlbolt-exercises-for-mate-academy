@@ -86,9 +86,9 @@ SELECT *
 ```sql
 SELECT building_name
   FROM buildings
-  LEFT JOIN employees
-    ON employees.building = buildings.building_name
-      WHERE building IS NULL;
+    LEFT JOIN employees
+      ON employees.building = buildings.building_name
+        WHERE building IS NULL;
 ```
 ### Lesson 9. Task 2
 - #### List all movies and their ratings in percent
