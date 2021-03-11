@@ -158,9 +158,9 @@ DELETE FROM movies
 ```
 ### Lesson 16. Task 1
 - #### Create a new table named Database with the following columns:
-#####     Name A string (text) describing the name of the database
-#####     Version A number (floating point) of the latest version of this database
-#####     Download_count An integer count of the number of times this database was downloaded
+1. ##### Name A string (text) describing the name of the database
+2. ##### Version A number (floating point) of the latest version of this database
+3. ##### Download_count An integer count of the number of times this database was downloaded
 ```sql 
 CREATE TABLE Database (
     Name TEXT,
